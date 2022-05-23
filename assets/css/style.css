@@ -1,0 +1,514 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/*=========== Top bar ============ */
+.top-bar {
+  padding: 90px 0 0 0;
+}
+.inner-page .top-bar {
+  padding: 44px 0 0;
+  position: relative;
+  z-index: 99;
+}
+.top-bar .navigation ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #080808;
+  margin-right: 24px;
+  padding: 14px 16px;
+}
+.top-bar .navigation ul li:last-child a {
+  border: 1px solid #342b38;
+  border-radius: 4px;
+  margin-right: 0;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.top-bar .navigation ul li:last-child a:hover {
+  background-color: #342b38;
+  color: #fff;
+}
+
+/*=========== Work Place ============ */
+.top-heading {
+  text-align: center;
+  margin-bottom: 140px;
+}
+.top-heading h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: center;
+  color: #080808;
+  max-width: 850px;
+  margin: auto;
+}
+.top-heading h5 {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #acacac;
+}
+/*=========== become a partner banner ============ */
+.topbar-with-banner {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+.topbar-with-banner .top-bar .navigation ul li:last-child a {
+  border-color: #fff;
+}
+.topbar-with-banner .top-bar .navigation ul li a {
+  color: #fff;
+}
+.topbar-with-banner .top-bar .navigation ul li:last-child a:hover {
+  background-color: #ff9595;
+}
+.become-partner h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: -1px 0 #feb000, 0 1px #feb000, 1px 0 #feb000, 0 -1px #feb000;
+  max-width: 751px;
+  margin: auto;
+}
+.become-partner span {
+  color: #78ff86;
+}
+.btn-member {
+  padding: 20px 48px 21px;
+  max-width: 300px;
+  height: 63px;
+  background: #ff9595;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 65px;
+  font-weight: 600;
+  line-height: 21px;
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 40px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.main-banners {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0 -89px;
+	position: relative;
+}
+.main-banners::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+.btn-member:hover {
+  background-color: #000;
+  color: #fff;
+}
+/*=========== partner info ============ */
+.partner-info-detail {
+  padding: 60px 0 0 0;
+}
+.partner-info {
+  padding: 110px 0 60px 0;
+}
+/* .partner-info-detail h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #acacac;
+  margin-bottom: 22px;
+} */
+
+.partner-info-detail h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 22px;
+}
+.partner-info-detail p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.partner-info-detail .btn-member {
+  margin-top: 24px;
+}
+/*=========== Get Started ============ */
+.join-bloomli {
+  padding: 20px 0 122px 0;
+}
+.join-bloomli h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #080808;
+}
+.join-bloomli .btn-get-started {
+  padding: 20px 60px 21px;
+  max-width: 360px;
+  height: 63px;
+  background: #342b38;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 65px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+  margin: 35px 0 0 0;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.join-bloomli .btn-get-started:hover {
+  background-color: #ff9595;
+  color: #fff;
+}
+/*=========== Features ============ */
+.features-cover .top-heading {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #080808;
+  margin-bottom: 50px;
+}
+.features-items {
+  margin-bottom: 19px;
+}
+.features-items .feature-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid #ffe8e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto auto 22px auto;
+}
+.features-items .feature-icon img {
+  max-width: 40px;
+}
+.features-items h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+  max-width: 300px;
+  margin: auto auto 10px auto;
+}
+.features-items p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.features-cover .top-heading {
+  margin-top: 35px;
+}
+.features-cover {
+  padding: 0 0 60px 0;
+}
+/*=========== Gift Main banner ============ */
+.next-level {
+  padding: 170px 0 120px 0;
+}
+.gift-box.next-level {
+  padding: 150px 0 120px 0;
+  position: relative;
+}
+.gift-box .bg-text {
+  font-weight: 900;
+  font-size: 288px;
+  line-height: 351px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.1em;
+  background: linear-gradient(270.12deg, rgba(142, 173, 254, 0.1) 4.92%, rgba(255, 149, 149, 0.1) 102.95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-transform: uppercase;
+  position: absolute;
+  left: 43%;
+  transform: translateX(-50%);
+  top: -25px;
+}
+.next-level h2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #080808;
+  margin-bottom: 25px;
+}
+.gift-box.next-level h2 {
+  margin-top: 90px;
+}
+.gift-box.next-level h2 span {
+  color: #e20a01;
+}
+.next-level p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #080808;
+  margin-bottom: 20px;
+}
+.btn.btn-quote {
+  padding: 20px 40px 21px;
+  min-width: 238px;
+  height: 63px;
+  background: #342b38;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: #fff;
+  border-radius: 65px;
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.gift-box .btn.btn-quote {
+  min-width: 153px;
+  height: 60px;
+  line-height: 22px;
+}
+.gift-box .btn.btn-quote:hover {
+  background-color: #ff9595;
+  color: #fff;
+}
+.video-cover {
+  padding: 70px 0 0 0;
+}
+.gift-box .video-cover {
+  padding: 0;
+}
+.dots {
+  position: absolute;
+}
+.gift-box .dot-1 {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(2, 152, 55, 0.7) 0%, rgba(0, 84, 30, 0.7) 100%), #ffdb60;
+  top: -56px;
+  left: 93px;
+}
+.gift-box .dot-2 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: #c7b6f8;
+  bottom: -33px;
+  z-index: -1;
+  left: -8px;
+}
+.gift-box .dot-3 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #f8b6c2;
+  bottom: -35px;
+  z-index: 1;
+  left: 50%;
+}
+.gift-box .dot-4 {
+  height: 9px;
+  width: 9px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, rgba(2, 152, 55, 0.7) 0%, rgba(0, 84, 30, 0.7) 100%), rgba(92, 75, 92, 0.15);
+  top: -35px;
+  right: 35px;
+}
+/*=========== Gift Card ============ */
+.gift-card-cover {
+  padding: 55px 0 0 0;
+}
+.gift-card-item {
+  margin-bottom: 60px;
+}
+.gift-card-info {
+  padding: 0 10px;
+}
+.gift-card-item .gift-card-info h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #2e2c2c;
+  margin: 35px 0 20px 0;
+}
+.gift-card-item .gift-card-info p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #342b38;
+}
+.gift-card-item .gift-card-info p span {
+  font-weight: 600;
+}
+.gift-bloomli-today .btn-gift-bloomli {
+  padding: 20px 60px 21px;
+  max-width: 295px;
+  height: 83px;
+  background: #342b38;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 65px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 15px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+.gift-bloomli-today .btn-gift-bloomli:hover {
+  background-color: #f8b6c2;
+  color: #fff;
+}
+/*=========== Why gift bloomli ============ */
+.why-gift-bloomli {
+  padding: 80px 0 138px 0;
+}
+.why-gift-bloomli h3 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  color: #080808;
+  margin-bottom: 60px;
+}
+/* .why-gift-bloomli a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  background: #f1f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #342b38;
+  margin: 0 7px 16px 7px;
+  flex: 0 0 47%;
+
+
+} */
+
+
+
+.why-gift-bloomli a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  background: #f1f1f1;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #342b38;
+  margin: 0 7px 16px 7px;
+  flex: 0 0 47%;
+  height: 70px;
+
+
+}
+
+
+/*=========== Footer ============ */
+.footer {
+  background-color: #080808;
+  padding: 50px 0 50px 0;
+}
+.call-now {
+  flex-direction: column;
+  display: flex;
+}
+.call-now p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 7px;
+  color: #ffffff;
+}
+.call-now a {
+  font-weight: 800;
+  font-size: 24px;
+  color: #ffffff;
+}
+.top-footer {
+  padding-bottom: 95px;
+  max-width: 65%;
+}
+.bottom-footer
+{
+  max-width: 100%;
+ 
+}
+
+.bottom-footer h5 {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-bottom: 48px;
+}
+.bottom-footer ul li a {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.bottom-footer ul li {
+  margin-bottom: 20px;
+}
+.social-media {
+  margin-top: 25px;
+}
+.social-media img {
+  margin-right: 24px;
+}
+
+
+
+
+
+
+
+#footer-logo{
+  max-width: 150px;
+}
