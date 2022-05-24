@@ -76,7 +76,10 @@ height: 100%;
 
 
 }
-
+.title-about-page-grey{
+  font-size: 1.3rem;
+  color: grey;
+}
 .color-grey{
 color: grey;
 margin-top: -2px;
