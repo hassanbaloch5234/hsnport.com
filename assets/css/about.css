@@ -78,10 +78,10 @@ height: 100%;
 }
 
 .color-grey{
-color: rgb(0, 0, 0);
+color:grey;
 margin-top: -2px;
 font-size: 1.1rem;
-font-weight: 500;
+
 font-family: "Montserrat", sans-serif;
 }
 .first-row-left-img{
