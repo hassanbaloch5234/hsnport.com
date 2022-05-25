@@ -1,0 +1,513 @@
+/* @media (max-width: 767.98px) {
+
+
+    .bloomli-body {
+        border-radius: 45px;
+        background-color: #fff0f0;
+       
+        position: relative;
+        padding: 0 0 50px 0;
+        width: 80%;
+    }
+
+    .modal-custom .modal-content {
+        margin-left:  10%;
+        background-color: transparent;
+      }
+
+      .bloomli-body {
+        border-radius: 45px;
+        background-color: #fff0f0;
+        position: relative;
+        padding: 0 0 50px 0;
+        width: 100%;
+    }
+    .bloomli-body .nav-pills .nav-item .nav-link {
+        font-size: 18px;
+        font-weight: 500;
+        color: #342b38;
+        border-radius: 69px;
+        padding: 10px  20px;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+    .bloomli-body .nav-pills {
+        max-width: 60%;
+        margin: auto;
+        border-radius: 69px;
+        padding: 6px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: -33px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .bloomli-login-section h3 {
+        text-align: center;
+        font-size: 21px;
+        font-weight: bold;
+        color: #342b38;
+        margin: 10px 0 58px 0;
+        max-width: 100%;
+    }
+
+
+
+
+
+
+} */
+@media (max-width:700.98px) {
+    .modal-custom .modal-content {
+        margin-left: 11%;
+        background-color: transparent;
+    }
+
+    .bloomli-header .close-modal {
+        padding: 45px 3px 54px 0px;
+    }
+
+
+    .bloomli-body .nav-pills .nav-item .nav-link {
+        display: flex;
+        font-size: 22px;
+        font-weight: 500;
+        color: #342b38;
+        border-radius: 69px;
+        padding: 10px 20px; 
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    .bloomli-body .nav-pills .nav-item .nav-link {
+        font-size: 15px;
+        font-weight: 500;
+        color: #342b38;
+        border-radius: 69px;
+        padding: 10px 20px;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    .bloomli-body .nav-pills {
+        max-width: 267px;
+        margin: auto;
+        border-radius: 69px;
+        padding: 7px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: -33px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .bloomli-login-section h3 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        color: #342b38;
+        margin: 10px 0 44px 0;
+        max-width: 507px;
+    }
+    .p-77 {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .form-list span {
+        position: absolute;
+        right: 13px;
+        top: 15px;
+        cursor: pointer;
+    }
+    .form-list .form-control, .form-list .form-select {
+        height: 58px;
+        border: 1px solid #342b38;
+        border-radius: 36px;
+        margin-bottom: 25px;
+        font-size: 20px;
+        font-weight: 300;
+        padding-left: 23px;
+        color: #8f8f8f;
+        background-color: transparent;
+    }
+    .form-list .btn-submit {
+        font-size: 20px;
+        font-weight: 500;
+        height: 54px;
+        color: #fff;
+        text-align: center;
+        background-color: #ff9595;
+        width: 100%;
+        border-radius: 36px;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+    .form-list p {
+        font-size: 17px;
+        font-weight: 200;
+        color: #342b38;
+        margin: 11px 0 16px 0;
+    }
+
+    .form-list .another-way p {
+        font-size: 14px;
+        font-weight: 200;
+        color: #342b38;
+        background-color: #fff0f0;
+        margin: 0;
+        padding: 0 15px;
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+@media (max-width: 610.98px) {
+    .modal-custom .modal-content {
+        margin-left: 6%;
+        background-color: transparent;
+    }
+    
+    
+
+
+}
+
+@media (max-width: 585.98px) {
+
+    .modal-custom .modal-content {
+        margin-left: 2%;
+        background-color: transparent;
+    }
+    .bloomli-body .nav-pills {
+        max-width: 299px;
+        margin: auto;
+        border-radius: 69px;
+        padding: 12px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: -33px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+
+    .bloomli-body .nav-pills .nav-item .nav-link.active {
+        background-color: #ff9595;
+        color: #fff;
+        font-size: 1.5rem;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+    .bloomli-body .nav-pills {
+        max-width: 299px;
+        margin: auto;
+        border-radius: 69px;
+        padding: 5px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: -33px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .modal-body {
+        position: relative;
+        flex: 1 1 auto;
+        padding: 1rem;
+        width: 100%;
+        max-width: 403px;
+    }
+
+
+
+    .bloomli-body {
+        border-radius: 45px;
+        background-color: #fff0f0;
+        position: relative;
+        padding: 0 0 50px 0;
+        width: 100%;
+        max-width: 403px;
+
+    }
+
+    .modal-custom .modal-content {
+        margin-left: 12%;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 520.98px) {
+
+    .modal-custom .modal-content {
+        margin-left: 10%;
+        background-color: transparent;
+    }
+}
+
+@media (max-width: 500.98px) {
+
+    .modal-custom .modal-content {
+        margin-left: 7%;
+        background-color: transparent;
+    }
+    .bloomli-body .nav-pills .nav-item .nav-link.active {
+        background-color: #ff9595;
+        color: #fff;
+        font-size: 1.1rem;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    .bloomli-body .nav-pills .nav-item .nav-link {
+        font-size: 16px;
+        font-weight: 500;
+
+        border-radius: 69px;
+        padding: 10px 20px;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+}
+
+
+
+@media (max-width: 480.98px) {
+
+    .bloomli-header .close-modal {
+        padding: 31px 3px 54px 0px;
+    }
+    .modal-custom .modal-content {
+        margin-left: 4%;
+        background-color: transparent;
+    }
+
+
+}
+@media (max-width: 450.98px) {
+
+    .bloomli-header .close-modal {
+        padding: 31px 3px 54px 0px;
+    }
+    .modal-custom .modal-content {
+        margin-left: 2%;
+        background-color: transparent;
+    }
+
+    .bloomli-body {
+        border-radius: 45px;
+        background-color: #fff0f0;
+        position: relative;
+        padding: 0 0 50px 0;
+        width: 100%;
+        max-width: 100% ;
+
+    }
+
+    .bloomli-header h2 {
+        font-size: 27px;
+        font-weight: 600;
+        color: #342b38;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 78px;
+    }
+
+   
+
+
+
+
+
+
+}
+
+
+@media (max-width: 420.98px) {
+
+    .modal-custom .modal-content {
+        margin-left: 0%;
+        background-color: transparent;
+    }
+
+    .bloomli-body .nav-pills .nav-item .nav-link {
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 69px;
+        padding: 7px 15px;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+
+
+
+
+
+
+
+    
+    .bloomli-header h2 {
+        font-size: 22px;
+        font-weight: 600;
+
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 89px;
+    }
+
+
+    .bloomli-header .close-modal span {
+        position: absolute;
+        right: 24px;
+        width: 18px;
+        height: 24px;
+        cursor: pointer;
+    }
+
+
+
+    .bloomli-header .close-modal {
+        padding: 23px 3px 54px 0px;
+    }
+    .bloomli-header .close-modal span {
+        position: absolute;
+        right: 33px;
+        TOP: 36PX;
+        width: 18px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .form-list .btn-google {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 191px;
+        height: 56px;
+        border: 1px solid #342b38;
+        border-radius: 36px;
+        font-size: 20px;
+        font-weight: 300;
+        color: #342b38;
+        margin: 18px auto auto auto;
+        transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+    }
+
+
+
+
+
+
+    .form-list .btn-google img {
+        margin-right: 15px;
+        width: 20px;
+    }
+
+    .form-list .form-control, .form-list .form-select {
+        height: 58px;
+        border: 1px solid #342b38;
+        border-radius: 36px;
+        margin-bottom: 25px;
+        font-size: 13px;
+        font-weight: 300;
+        padding-left: 23px;
+        color: #8f8f8f;
+        background-color: transparent;
+    }
+    .bloomli-body {
+        border-radius: 25px;
+        background-color: #fff0f0;
+        position: relative;
+        padding: 0 0 50px 0;
+        width: 100%;
+    }
+    .bloomli-modal {
+        border-radius: 26px;
+    }
+
+
+    .bloomli-body .nav-pills {
+        max-width: 267px;
+        margin: auto;
+        border-radius: 69px;
+        padding: 7px 9px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        top: -27px;
+        background-color: #fff;
+        box-shadow: 0px 3px 6px #00000029;
+    }
+    .bloomli-login-section h3 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #342b38;
+        margin: 10px 0 44px 0;
+        max-width: 507px;
+    }
+
+
+}
+@media (max-width: 380.98px) {
+    .bloomli-header h2 {
+        font-size: 21px;
+        font-weight: 600;
+        color: #342b38;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 89px;
+    }
+
+
+    .bloomli-header .close-modal span {
+        position: absolute;
+        right: 20px;
+        TOP: 19PX;
+        width: 18px;
+        height: 24px;
+        cursor: pointer;
+
+    }
+
+    .bloomli-header h2 {
+        font-size: 21px;
+        font-weight: 600;
+        color: #342b38;
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 64px;
+    }
+    .form-list .form-control, .form-list .form-select {
+        height: 50px;
+        border: 1px solid #342b38;
+        border-radius: 36px;
+        margin-bottom: 25px;
+        font-size: 13px;
+        font-weight: 300;
+        padding-left: 23px;
+        color: #8f8f8f;
+        background-color: transparent;
+    }
+    .btn-submit {
+        font-size: 20px;
+        font-weight: 500;
+        height: 48px;
+        color: #fff;
+        text-align: center;
+        background-color: #ff9595;
+        width: 100%;
+        border-radius: 36px;
+        transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    }
+
+    .bloomli-header .close-modal {
+        padding: 12px 3px 54px 0px;
+    }   
+}
